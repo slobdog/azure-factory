@@ -1,0 +1,10 @@
+{
+    "name": "SourceDataset",
+    "properties": {
+        "type": "AzureSqlTable",
+        "linkedServiceName": {
+            "referenceName": "AzureSQLDatabaseLinkedService",
+            "type": "LinkedServiceReference"
+        }
+    }
+} 
