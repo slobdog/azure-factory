@@ -1,5 +1,5 @@
 {
-    "name": "AzureSQLDatabaseLinkedService",
+    "name": "AzureSourceSQLDatabaseLinkedService",
     "properties": {
         "type": "AzureSqlDatabase",
         "typeProperties": {

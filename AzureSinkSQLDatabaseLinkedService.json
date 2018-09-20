@@ -1,0 +1,12 @@
+{
+    "name": "AzureSinkSQLDatabaseLinkedService",
+    "properties": {
+        "type": "AzureSqlDatabase",
+        "typeProperties": {
+            "connectionString": {
+                "value": "Server = tcp:grs-server.database.windows.net,1433;Initial Catalog=grs-sink-db; Persist Security Info=False; User ID=grs-user; Password=Q1w2e3r4; MultipleActiveResultSets = False; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30;",
+                "type": "SecureString"
+            }
+        }
+    }
+}

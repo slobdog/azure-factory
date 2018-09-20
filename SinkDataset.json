@@ -6,7 +6,7 @@
             "tableName": ""
         },
         "linkedServiceName": {
-            "referenceName": "AzureSourceSQLDatabaseLinkedService",
+            "referenceName": "AzureSinkSQLDatabaseLinkedService",
             "type": "LinkedServiceReference"
         }
     }
