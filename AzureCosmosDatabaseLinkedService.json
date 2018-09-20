@@ -1,0 +1,12 @@
+{
+    "name": "AzureCosmosDatabaseLinkedService",
+    "properties": {
+        "type": "CosmosDb",
+        "typeProperties": {
+            "connectionString": {
+                "value": "AccountEndpoint=grs-db.documents.azure.com;AccountKey=zvlqRvMi3kKhYCReUqbIyUjZrcvYQsQcYKe1cg2WDUicIU7lySFa76osILHLlkvmWadlRzHucTPRzMKD8MAORg==;Database=grs-db",
+                "type": "SecureString"
+            }
+        }
+    }
+}
